@@ -115,9 +115,7 @@ nav ul a{
     clear: both;
     display: table;
   }
-.image2 img{
-    flex-direction: column;
-    position: absolute;
+.images .image2 img{
     width: 20%;
     height: 70%;
 }
