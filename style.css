@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    line-height: 1.6;
+    background:
+        linear-gradient( rgb(242, 237, 96), transparent),
+        linear-gradient(to top right, rgb(237, 237, 108), transparent),
+        linear-gradient(to top left, rgb(243, 3, 227), transparent);
+    background-blend-mode: screen;
+}
+nav{
+    background-color: rgb(238, 115, 115);
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+    font-family: cooper;
+    letter-spacing: 0.1em;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li img {
+    width: 20px;
+    height: 20px;
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease-in;
+}
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    margin-top: 0px;
+    flex: 0 0 50%;   
+}
+.main-div .head{
+    justify-content: space-between;
+    font-family: 'lorem ipsum', sans-serif; 
+    font-size: 20px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-left: 50px;
+    margin-right: 80px;
+    transition: 0.2s ease-in;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.head button{
+    width: 200px;
+    height: 50px;
+    background-color:  rgb(238, 115, 115);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 0px;
+    cursor: pointer;
+}
+.img img{
+   margin: 0px;
+    width: 608px;
+    height: 800px;
+}
+.container{
+    margin-top: 200px;
+}
+.container .heading .h{
+    font-style: solid;
+    justify-content: space-between;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    padding: 15px;
+    margin-right: 300px;
+    margin-left: 400px;
+    margin-bottom: 150px;
+    text-align: left;
+    float: right;
+    letter-spacing: 0.1em;
+    background-color: rgb(238, 115, 115);;
+}
+.container ul li img {
+    margin-top: 1%;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.container ul a{
+    display: inline-block;
+}
+.container ul{
+    list-style-type: none;
+}
+
+.container img {
+    
+    margin-left: 50px;
+    width: 15%;
+    height: 25%;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.image2 img{
+    flex-direction: column;
+    position: absolute;
+    width: 20%;
+    height: 70%;
+}
