@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    min-height: 100vh;
-    line-height: 1.6;
     background:
         linear-gradient( rgb(242, 237, 96), transparent),
         linear-gradient(to top right, rgb(237, 237, 108), transparent),
